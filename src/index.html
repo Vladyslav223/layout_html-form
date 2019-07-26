@@ -10,7 +10,7 @@
           minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <form class="main-form" action="https://mate-academy-form-lesson.herokuapp.com/create-application" onsubmit="onSubmit(event)">
@@ -26,7 +26,7 @@
     </label>
     <label class="main-form__label">
       How old are You?
-      <input type="number" name="age" data-qa="field-value" name="age" value="12" min="18" max="200">
+      <input type="number" name="age" data-qa="field-value" value="12" min="18" max="200">
     </label>
     <label class="main-form__label">
       Full date of birth:
@@ -51,11 +51,11 @@
   <fieldset class="main-form__fs">
     <legend>An interesting fact about you!</legend>
     Do you love cats?
-    <input type="radio" id="cats__choice1">
-    <label for="cats__choice1">yes</label>
-    <input type="radio" id="cats__choice2">
-    <label for="cats__choice2">no</label>
-    <label class="main-form__label">
+    <input type="radio" name="cats__choice1" id="cats__choice1">
+    <label for="cats__choice1">Yes</label>
+    <input type="radio" name="cats__choice2" id="cats__choice2">
+    <label for="cats__choice2">No</label>
+    <label class="main-form__label fav-color">
         What is your favorite color?
         <input type="color" name="color">
       </label>

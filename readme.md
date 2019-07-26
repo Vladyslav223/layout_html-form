@@ -54,4 +54,4 @@ Add attribute `data-qa="field-placeholder"` to test it correctly.
 **Result**
 
 - [UPDATE DEMO LINK](https://vladyslav223.github.io/layout_html-form/)
-- [UPDATE TEST REPORT LINK]("BACKSTOP ERROR: Reference file not found E:\Програмы\Git\layout_html-form\backstop_data\bitmaps_reference\test_entire-document_0_document_0_tablet_h.png")
+- [UPDATE TEST REPORT LINK](https://vladyslav223.github.io/layout_html-form/report/html_report/)
